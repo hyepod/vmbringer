@@ -1,0 +1,52 @@
+.main_button_hide{
+  border: solid !important;
+  border-radius: 50% 20% / 10% 40% !important;
+  padding: 5px 10px 5px 10px !important;
+}
+
+.main_button_hide h6, .main_button h6{
+  font-weight: 600 !important;
+}
+
+.main_button_hide:hover{
+  background-color: white !important;
+}
+
+.main_button_hide:hover h6{
+  background: -webkit-linear-gradient(45deg,
+      #1A1916 14%,
+      #291C16 28%,
+      #3F2C2D 42%,
+      #1A1612 57%,
+      #1D2215 72%,
+      #272A16 86%,
+      #343728 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; 
+}
+
+.main_button{
+  border: solid black !important;
+  border-radius: 50% 20% / 10% 40% !important;
+  padding: 5px 10px 5px 10px !important;
+}
+
+.main_button:hover{
+  background: -webkit-linear-gradient(45deg,
+      #1A1916 14%,
+      #291C16 28%,
+      #3F2C2D 42%,
+      #1A1612 57%,
+      #1D2215 72%,
+      #272A16 86%,
+      #343728 100%) !important;
+}
+
+.main_button:hover h6{
+  color: white !important;
+}
+
+.main_button h6{
+  font-weight: 600 !important;
+  color: black !important;
+}

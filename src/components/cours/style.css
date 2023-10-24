@@ -1,0 +1,6 @@
+.title_span{
+  background-image: url("../../img/8.jpg") !important;
+  background-position: center !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
