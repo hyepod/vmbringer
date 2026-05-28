@@ -102,8 +102,8 @@ const events = [
 	},
 	{
 		date: 'Juillet 2021',
-		description: 'Concours Talent d\'Aveyron.',
-		title: '"Quatre styles pour l\'Aveyron".',
+		title: 'Exposition salle Georges-Costantini à Millau',
+		description: '"Quatre styles pour l\'Aveyron".',
 	},
 	{
 		date: 'Décembre 2025',
