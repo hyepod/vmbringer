@@ -31,6 +31,10 @@ import tableau29 from '../../img/29.jpg';
 import tableau30 from '../../img/30.jpg';
 import tableau31 from '../../img/31.jpg';
 import tableau32 from '../../img/32.jpg';
+import tableau33 from '../../img/33.jpg';
+import tableau34 from '../../img/34.jpg';
+import tableau35 from '../../img/35.jpg';
+import tableau36 from '../../img/36.jpg';
 import './style.css';
 import PaintingDialog from './PaintingDialog'
 import useWindowDimensions from '../hooks/useWindowDimensions';
@@ -50,29 +54,57 @@ const newPainting = [
 	{
 		id: 29,
 		img: tableau29,
-		title: "Au-dessus des nuages",
-		size: '',
+		title: "L'espace du silence",
+		size: '60 x 92 cm',
 		cols: 2.25,
 	},
 	{
 		id: 30,
 		img: tableau30,
-		title: "Éclat intérieur",
-		size: '',
+		title: "Naître de la fissure",
+		size: '40 x 50 cm',
 		cols: 2.25,
 	},
 	{
 		id: 31,
 		img: tableau31,
-		title: "Sphères suspendues",
-		size: '',
+		title: "Seuil intérieur",
+		size: '92 x 65 cm',
 		cols: 2.25,
 	},
 	{
 		id: 32,
 		img: tableau32,
-		title: "Éclosion bleue",
-		size: '',
+		title: "Apocalypses",
+		size: '50 x 60 cm',
+		cols: 2.25,
+	},
+	{
+		id: 33,
+		img: tableau33,
+		title: "Murmure lumineuse",
+		size: '41 x 33 cm',
+		cols: 2.25,
+	},
+	{
+		id: 34,
+		img: tableau34,
+		title: "Présence",
+		size: '195 x 114 cm',
+		cols: 2.25,
+	},
+	{
+		id: 35,
+		img: tableau35,
+		title: "Rémanence",
+		size: '60 x 92 cm',
+		cols: 2.25,
+	},
+	{
+		id: 36,
+		img: tableau36,
+		title: "Éloignement en lumière fracturée",
+		size: '100 x 81 cm',
 		cols: 2.25,
 	},
 ];

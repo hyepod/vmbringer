@@ -92,6 +92,25 @@ const events = [
 			external: true,
 		},
 	},
+	{
+		date: 'Printemps 2020',
+		title: 'Exposition à Nelly\'s Coffee',
+		description: 'Concours Talent d\'Aveyron.',
+	},
+	{
+		date: 'Juillet 2021',
+		title: 'Exposition salle Georges-Costantini à Millau',
+		description: '"Quatre styles pour l\'Aveyron".',
+	},
+	{
+		date: 'Décembre 2025',
+		title: 'Exposition dans la galerie "Libre Est l\'Art"',
+		description: '52 rue Notre-Dame de Nazareth, 75003 Paris.',
+	},
+	{
+		date: 'De janvier à mars 2026',
+		title: 'Tableaux exposés sur la plateforme ARTSY',
+	},
 ];
 
 const useStyles = makeStyles((theme) => ({
