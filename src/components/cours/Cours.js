@@ -146,7 +146,7 @@ export function Cours() {
 							</Grid>
 							<Grid item>
 								<Typography variant="body1" className={classes.courseText}>
-									À Millau et en Aveyron, ces cours s'adressent aux personnes qui souhaitent approfondir leur pratique de la peinture à l'huile. L'enseignement s'appuie sur une expérience personnelle exigeante, nourrie par le travail de la lumière, du clair-obscur et des techniques traditionnelles inspirées des maîtres flamands.
+									À Millau et en Aveyron, ces cours s'adressent aux débutants et aux personnes qui souhaitent approfondir leur pratique de la peinture à l'huile. L'enseignement s'appuie sur une expérience personnelle exigeante, nourrie par le travail de la lumière, du clair-obscur et des techniques traditionnelles inspirées des maîtres flamands.
 								</Typography>
 								<Typography variant="body1" className={classes.courseText}>
 									Chaque séance permet d'avancer avec méthode : observation du sujet, construction de la composition, choix des valeurs, préparation des couleurs, travail des glacis, précision du geste et mise en place d'une lumière juste.
@@ -165,7 +165,7 @@ export function Cours() {
 							</Grid>
 							<Grid item className={classes.contactBlock}>
 								<Typography variant="body1" className={classes.courseText}>
-									Les cours s'adressent principalement aux peintres ayant déjà des bases et désirant aller plus loin dans leur technique. Pour connaître les disponibilités, les modalités des séances ou organiser un premier échange, vous pouvez contacter directement l'artiste.
+									Les cours s'adressent aux peintres débutants jusqu'aux confirmés, désireux d'aller plus loin dans leur technique. Pour connaître les disponibilités, les modalités des séances ou organiser un premier échange, vous pouvez contacter directement l'artiste.
 								</Typography>
 								<Button component={RouterLink} to="/contact" variant="contained" className={classes.contactButton}>
 									Prendre contact
