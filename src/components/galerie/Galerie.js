@@ -27,6 +27,10 @@ import tableau25 from '../../img/25.png';
 import tableau26 from '../../img/26.jpg';
 import tableau27 from '../../img/27.jpg';
 import tableau28 from '../../img/28.jpg';
+import tableau29 from '../../img/29.jpg';
+import tableau30 from '../../img/30.jpg';
+import tableau31 from '../../img/31.jpg';
+import tableau32 from '../../img/32.jpg';
 import './style.css';
 import PaintingDialog from './PaintingDialog'
 import useWindowDimensions from '../hooks/useWindowDimensions';
@@ -41,6 +45,37 @@ import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
+
+const newPainting = [
+	{
+		id: 29,
+		img: tableau29,
+		title: "Au-dessus des nuages",
+		size: '',
+		cols: 2.25,
+	},
+	{
+		id: 30,
+		img: tableau30,
+		title: "Éclat intérieur",
+		size: '',
+		cols: 2.25,
+	},
+	{
+		id: 31,
+		img: tableau31,
+		title: "Sphères suspendues",
+		size: '',
+		cols: 2.25,
+	},
+	{
+		id: 32,
+		img: tableau32,
+		title: "Éclosion bleue",
+		size: '',
+		cols: 2.25,
+	},
+];
 
 const squarePainting = [
 	{
@@ -326,7 +361,7 @@ export function Galerie() {
 					<Typography variant="h2" component="h1" align="center" className={classes.title}><span className='title_span'>GALERIE</span></Typography>
 				</Grid>
 				<Grid item container sm={11} direction="row" spacing={1} className={classes.mobile_version}>
-					{squarePainting.concat(longPainting).concat(squarePainting2).concat(longPainting2).concat(squarePainting3).map((tile) => (
+					{newPainting.concat(squarePainting).concat(longPainting).concat(squarePainting2).concat(longPainting2).concat(squarePainting3).map((tile) => (
 						<Grid item sm={4} key={tile.id} component={ButtonBase} onClick={() => handleClickOpen(tile.id)} disabled={width >= 600 ? false : true}>
 							<div className={classes.container_component}>
 								<img src={tile.img} alt={tile.title} className={classes.component} align="middle" />
@@ -340,6 +375,18 @@ export function Galerie() {
 					))}
 				</Grid>
 				<Grid item sm={11} className={classes.large_version}>
+					<GridList cellHeight={360} className={classes.gridList} cols={9} spacing={20} >
+						{newPainting.map((tile) => (
+							<GridListTile key={tile.id} cols={tile.cols || 3} className={classes.button} onClick={() => handleClickOpen(tile.id)} disabled={width >= 600 ? false : true}>
+								<img src={tile.img} alt={tile.title} />
+								<GridListTileBar
+									title={tile.title}
+									subtitle={<span>{tile.size}</span>}
+									titlePosition='bottom'
+								/>
+							</GridListTile>
+						))}
+					</GridList>
 					<GridList cellHeight={300} className={classes.gridList} cols={9} spacing={20} >
 						{squarePainting.map((tile) => (
 							<GridListTile key={tile.id} cols={tile.cols || 3} className={classes.button} onClick={() => handleClickOpen(tile.id)} disabled={width >= 600 ? false : true}>
@@ -400,7 +447,7 @@ export function Galerie() {
 							</GridListTile>
 						))}
 					</GridList>
-					{squarePainting.concat(squarePainting2).concat(squarePainting3).map((tile) => (
+					{newPainting.concat(squarePainting).concat(squarePainting2).concat(squarePainting3).map((tile) => (
 						<PaintingDialog key={tile.id} title={tile.title} size={tile.size} img={tile.img} onClose={() => handleClose(tile.id)} open={open[tile.id] == null ? false : open[tile.id]} />
 					))}
 					{longPainting.concat(longPainting2).map((tile) => (
