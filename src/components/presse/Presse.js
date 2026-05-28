@@ -100,7 +100,10 @@ const events = [
 	{
 		date: 'Juillet 2021',
 		title: 'Exposition salle Georges-Costantini à Millau',
-		description: '"Quatre styles pour l\'Aveyron".',
+	},
+	{
+		date: 'Juillet 2021',
+		title: '"Quatre styles pour l\'Aveyron".',
 	},
 	{
 		date: 'Décembre 2025',
