@@ -82,7 +82,7 @@ const newPainting = [
 	{
 		id: 33,
 		img: tableau33,
-		title: "Murmure lumineuse",
+		title: "Murmure lumineux",
 		size: '41 x 33 cm',
 		cols: 2.25,
 	},
