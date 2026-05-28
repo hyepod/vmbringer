@@ -95,14 +95,14 @@ const events = [
 	{
 		date: 'Printemps 2020',
 		title: 'Exposition à Nelly\'s Coffee',
+	},
+	{
+		date: 'Printemps 2020',
+		title: 'Concours Talent d\'Aveyron.',
+	},
+	{
+		date: 'Juillet 2021',
 		description: 'Concours Talent d\'Aveyron.',
-	},
-	{
-		date: 'Juillet 2021',
-		title: 'Exposition salle Georges-Costantini à Millau',
-	},
-	{
-		date: 'Juillet 2021',
 		title: '"Quatre styles pour l\'Aveyron".',
 	},
 	{
