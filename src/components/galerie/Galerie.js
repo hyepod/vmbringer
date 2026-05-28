@@ -75,7 +75,7 @@ const newPainting = [
 	{
 		id: 32,
 		img: tableau32,
-		title: "Apocalypses",
+		title: "Apokalypsis",
 		size: '50 x 60 cm',
 		cols: 2.25,
 	},
